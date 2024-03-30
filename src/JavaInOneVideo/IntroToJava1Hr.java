@@ -155,4 +155,16 @@ public class IntroToJava1Hr {
     // functionName(arguments);
 
     // static keyword: to access any static entity we don't need to create an object for that class where this method exists.
+    // Non-static entity can only be accesses via objects of that respective class.
+
+    public static void exceptionHandling () {
+        int[] array = {1,2,3,4};
+        try {
+            System.out.println(array[5]);
+        } catch (ArrayIndexOutOfBoundsException err) {
+            System.out.println(err.getLocalizedMessage());
+            System.out.println("Provide valid index");
+        }
+        System.out.println("After exception line");
+    }
 }
