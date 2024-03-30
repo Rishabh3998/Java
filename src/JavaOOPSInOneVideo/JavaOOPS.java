@@ -26,6 +26,9 @@ public class JavaOOPS {
         person2.walk(10000);
 
         System.out.println(Person.count);
+
+        Person person3 = new Person("Ritik", 24);
+        person3.displayName();
     }
 }
 
@@ -41,6 +44,14 @@ class Person {
     public Person () {
         count++;
         System.out.println("Default constructor called");
+    }
+
+    // User-defined Constructor.
+    // Constructor overloading
+    public Person (String name, int age) {
+        this(); // To access default constructor logic, this helps to reduce code duplicate.
+        this.name = name;
+        this.age = age;
     }
 
     // Methods
