@@ -58,8 +58,8 @@ public class IntroToJava1Hr {
         // 3. Assignment Operator
         // =
 
-        // 4. Comparison Operator
-        // >, <, >=, <=, !=
+        // 4. Conditional Operator
+        // >, <, >=, <=, !=, ==
 
         // 5. Bitwise Operator
         // &, |, ~, ^
@@ -69,5 +69,40 @@ public class IntroToJava1Hr {
         int inputValue = sc.nextInt(); // Take integer type input
         double doubleValue = sc.nextDouble(); // Take double type input
         String stringValue = sc.next(); // we can use sc.nextLine() as well to take white space as input as well in string
+    }
+
+    public static void conditionalStatements () {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+
+        // Conditional statement if-else block if-else-if-else block exist too.
+        if ( age >= 18) {
+            System.out.println("Adult");
+        } else {
+            System.out.println("Not an Adult");
+        }
+
+        // Switch case: This used when there are multiple if else conditions to clean up the code
+        char grade = 'A';
+
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent!");
+                break; // If we don't add break switch will check each case and print each line without any termination
+            case 'B':
+                System.out.println("Very good!");
+                break;
+            case 'C':
+                System.out.println("Satisfactory");
+                break;
+            case 'D':
+                System.out.println("Need Improvement");
+                break;
+            case 'F':
+                System.out.println("Better luck next time!");
+                break;
+            default:
+                System.out.println("Default case");
+        }
     }
 }
