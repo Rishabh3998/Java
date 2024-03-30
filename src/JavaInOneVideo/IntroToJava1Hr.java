@@ -3,6 +3,7 @@ package JavaInOneVideo;
 import java.util.Scanner;
 
 public class IntroToJava1Hr {
+    // All these functions are also called as Methods
     public static void variables () {
         // Introduction to variables in Java
         // A container that can store some value according to the declared data-type
@@ -105,4 +106,53 @@ public class IntroToJava1Hr {
                 System.out.println("Default case");
         }
     }
+
+    public static void loops () {
+        // For loop
+        String name = "Rishabh";
+        for (int i = 0 ; i < 10 ; i++) {
+            System.out.println(name);
+        }
+
+        // While loop
+        int cases = 10;
+        while (cases != 0) {
+            System.out.println(name);
+            cases--;
+        }
+
+        // Do-while loop
+        int testCases = 10;
+        do {
+            System.out.println(name);
+            testCases--;
+        } while (testCases != 0);
+    }
+
+    public static void arrays () {
+        // Arrays
+        // A user defined data-type which can store collection of values with same data-type
+
+        int[] array = new int[5];
+        int[] array2 = {1,2,3,4,5};
+        //        for (int i = 0 ; i < array2.length ; i++) {
+        //            System.out.println(array2[i]);
+        //        }
+        for (int j : array2) {
+            System.out.println(j);
+        }
+
+        // Matrix or 2-D array
+        int[][] matrix = new int[5][5]; // Matrix of 5x5
+        int[][] newMatrix = {{1,2}, {1,3}, {1,4}};
+        System.out.println(newMatrix[0][1]);
+    }
+
+    // Method:
+    // returnType function/MethodName (parameters) {
+    //  code
+    // }
+    // functionName(arguments);
+
+    // static keyword: to access any static entity we don't need to create an object for that class where this method exists.
 }
