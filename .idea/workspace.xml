@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35086c5a-87a0-4552-b77b-506f4cfe6b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/Interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/JavaCollectionsIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/EncapsulationIntro/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/EncapsulationIntro/Encapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/JavaOOPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPSInOneVideo/JavaOOPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
