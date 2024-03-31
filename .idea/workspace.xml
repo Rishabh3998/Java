@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35086c5a-87a0-4552-b77b-506f4cfe6b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/JavaCollectionsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/ArrayClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/CollectionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/IntroSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/JavaCollectionsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollectionsInOneVideo/JavaCollectionsIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

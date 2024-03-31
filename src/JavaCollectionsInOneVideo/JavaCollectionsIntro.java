@@ -6,32 +6,31 @@ public class JavaCollectionsIntro {
     // Interface
     // class
 
-    // Collection
+    // - Collection (Interface)
+    //  - List
+    //      - ArrayList
+    //      - LinkedList
+    //      - Stack
+    //      - Vector
 
-    // - List
-    //   - ArrayList
-    //   - LinkedList
-    //   - Stack
-    //   - Vector
+    //  - Set
+    //      - EnumSet
+    //      - HashSet
+    //      - LinkedHashSet
+    //      - TreeSet
 
-    // - Set
-    //   - EnumSet
-    //   - HashSet
-    //   - LinkedHashSet
-    //   - TreeSet
+    //  - Queue
+    //      - ArrayDequeue
+    //      - LinkedList
+    //      - PriorityQueue
 
-    // - Queue
-    //   - ArrayDequeue
-    //   - LinkedList
-    //   - PriorityQueue
-
-    // - Map
+    // - Map (interface)
     //   - HashMap
     //   - TreeMap
     //   - EnumMap
     //   - LinkedHashMap
     //   - WeakHashMap
 
-    // - Iterator
+    // - Iterator (Interface)
     //   - ListIterator
 }
