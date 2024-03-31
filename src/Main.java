@@ -1,3 +1,4 @@
+import JavaOOPSInOneVideo.EncapsulationIntro.Encapsulation;
 import JavaOOPSInOneVideo.JavaOOPS;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,5 +6,6 @@ import JavaOOPSInOneVideo.JavaOOPS;
 public class Main {
     public static void main(String[] args) {
         JavaOOPS.oops();
+        Encapsulation.main();
     }
 }

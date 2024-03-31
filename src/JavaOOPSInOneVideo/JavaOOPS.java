@@ -77,7 +77,7 @@ class Developer extends Person {
 class Person {
     // Parent class of Developer class
     // Properties
-    String name;
+    protected String name; // data hiding using protected
     int age;
     // static means property of a class not an object
     // to access this property we don't need to create any object.
@@ -128,4 +128,13 @@ class Person {
     void doWork () {
         System.out.println("Person is working.");
     }
+
+    // Protected keyword: If we want to make any property, method of the class present in parent to only accessible to
+    // itself or its child then we mark them as protected.
+
+    // Abstraction:
+    // Here we hide the data to reduce complexity. We only need to expose those methods which is useful for any user.
+    // We will hide the unnecessary things that is not required by the user.
+
+    // we can achieve abstraction using abstraction keyword or by using interface
 }

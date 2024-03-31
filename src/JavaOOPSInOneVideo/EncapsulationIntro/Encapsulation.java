@@ -18,4 +18,18 @@ public class Encapsulation {
         // Only accessible in Encapsulation class
         System.out.println("Private keyword used");
     }
+
+    public static void main () {
+        Laptop l1 = new Laptop();
+        l1.setPrice(23);
+    }
+}
+
+class Laptop {
+    private int price;
+
+    public void setPrice (int price) {
+        // if the user is admin
+        this.price = price;
+    }
 }
